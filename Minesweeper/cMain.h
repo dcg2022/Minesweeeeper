@@ -8,10 +8,15 @@ public:
 	cMain();
 	int width = 10;
 	int height = 10;
-	wxButton** button; 
+	wxButton** button;
+	int *mines = nullptr;
+	bool firstClick = true;
+
+
 	void ButtonPress(wxCommandEvent& click);
 
 
+	
 	wxDECLARE_EVENT_TABLE();
 
 };
