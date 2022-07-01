@@ -81,6 +81,11 @@ void cMain::ButtonPress(wxCommandEvent& click)
 				}
 			}
 
+		if (count > 0)
+		{
+			button[y * width + x]->SetLabel(std::to_string(count));
+
+		}
 
 	}
 
