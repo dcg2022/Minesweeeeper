@@ -11,6 +11,7 @@ public:
 	wxButton** button; 
 	void ButtonPress(wxCommandEvent& click);
 
+
 	wxDECLARE_EVENT_TABLE();
 
 };
