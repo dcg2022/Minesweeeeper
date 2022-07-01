@@ -9,7 +9,7 @@ public:
 	int width = 10;
 	int height = 10;
 	wxButton** button;
-	int *mines = nullptr;
+	int *field = nullptr;
 	bool firstClick = true;
 
 
