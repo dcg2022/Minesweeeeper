@@ -57,7 +57,7 @@ void cMain::ButtonPress(wxCommandEvent& click)
 
 	if (field[y * width + x] == -1)
 	{
-		wxMessageBox("Bruh.");
+		wxMessageBox("BOOOOOOOM!!!!!! You Lose!");
 		firstClick = true;
 		for (int x = 0; x < width; x++)
 			for (int y = 0; y < height; y++)
